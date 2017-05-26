@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车</title>
+		<link rel="stylesheet" type="text/css" href="../css/head.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/foot.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/iconfont/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/cookie.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/lunbotu.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/public.css"/>
+		<script type="text/javascript" src="../jquery.js"></script>
+		<script type="text/javascript" src="../js/head.js"></script>
+		<script type="text/javascript" src="../js/cookie.js"></script>
+		<script type="text/javascript" src="../js/lunbotu.js"></script>
+		<script type="text/javascript" src="../js/onMouseOver.js"></script>
+		<script type="text/javascript" src="../js/cookie_fz.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				$(".cookie_head").load("head.html",mainHeader);
+				$(".cookiefoot").load("foot.html" );
+				
+			})
+		</script>
+	</head>
+	
+	<body>
+		<!-- 此处位load进来的内容-->
+		<div class="cookie_head"></div>
+		<!-- 中间插入的图片-->
+		<div class="wrap">
+			<div class="shop"></div>
+		</div>
+      <!--------------------此处为表格------------------------>
+	<div class="wrap">
+		<div class="thead">
+			<ul>
+				<li style="width: 208px;"><input type="checkbox" name="check" id="check" value="" /><span>全选</span></li>
+				<li style="width: 241px;">商品信息</li>
+				<li style="width: 162px;">单价(元)</li>
+				<li style="width: 119px;">数量</li>
+				<li style="width: 140px;">小计(元)</li>
+				<li>操作</li>
+			</tr>
+		</div>
+		<div id="list_body"></div>
+ <!--------------------此处为cookie的尾部------------------------>  
+		 <div class="cookie_foot"></div>
+     <div class="wrap"> 
+     <div id="calculate">
+     	<a href="###">立即结算</a>
+     </div>
+     </div>
+
+    <!--------------------此处为load的尾部------------------------>  
+     <div class="cookiefoot">
+		
+	</div>
+	</div>
+	</body>
+</html>

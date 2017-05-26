@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>首页</title>
+			<link rel="stylesheet" type="text/css" href="../css/public.css"/>
+		    <link rel="stylesheet" type="text/css" href="../css/head.css"/>
+		    <link rel="stylesheet" type="text/css" href="../css/iconfont/iconfont.css">
+		    <link rel="stylesheet" type="text/css" href="../css/foot.css"/>
+		    <link rel="stylesheet" type="text/css" href="../css/lunbotu.css"/>
+		    <link rel="stylesheet" type="text/css" href="../css/shouye.css"/>
+		    <script type="text/javascript" src="../js/onMouseOver.js"></script>
+		    <script type="text/javascript" src="../jquery.js"></script>
+		    <script type="text/javascript" src="../js/head.js"></script>  
+		    <script type="text/javascript" src="../js/lunbotu.js"></script>
+		    <script type="text/javascript" src="../js/shouye.js"></script>
+		    <!--<script type="text/javascript" src="../js/waterfall.js"></script>-->
+		<script type="text/javascript">
+	  $(function(){ //这个就是今天我给我I你说的那个  只能引入一个js文件  再引的话其他的就失效了   所以我爸另一个js直接复制过来了  可是这样好臃肿
+    	 $(".foot").load("foot.html")
+    	 $(".top").load("head.html",mainHeader)
+    	 $(".lunbotu").load("lunbotu.html",lunbotumain)
+    //此处为jquery的大括号	   
+       })
+		</script>
+	</head>
+	<body>
+		<!--------------------------head----------------------------->
+		<div class="top"></div>
+		<!--------------------------head----------------------------->
+		<div class="fix"></div>
+		<!--------------------------lunbotu-----------------------------> 
+		<div class="lunbotu">
+		</div>
+		<!--------------------------lunbotu下-----------------------------> 
+		<div class="wrap">
+			<div class="lunbotuAfter">
+				<div class="lunbotuAfter_l">
+					<div id="lunbotuTop">
+						<div id="lunbotuTop_left"></div>
+						<div id="lunbotuTop_right"></div>
+						<div id="click">
+							<div id="lunbotuTopClick_left">&lt;</div>
+						    <div id="lunbotuTopClick_right">&gt;</div>
+						</div>
+						
+					</div>
+					<div id="lunbotuBottom"></div>
+					<div id="every">每日精选</div>
+				</div>
+				<div class="lunbotuAfter_r">
+					<div id="lunbotuAfter_r_top">
+						<p class="yougou"><span></span>优购网</p>
+						<div id="woll">
+							<img class="fl" src="../img/u_shouye/woll.png"/>
+							<div class="fr woll">
+								<p><a href="###">德国woll原装进口钻石炒锅会员尊享装</a></p>
+								<p><a href="###">￥1888</a></p>
+								<p><a href="###">距结束0:00 </a></p>
+								<p><a href="###">立即抢购 </a></p>
+							</div>
+						</div>
+						<div id="house">
+							<p><span>24小时</span>直播预告</p>
+							<div id="_24">
+								<div id="inner24">
+									
+								</div>
+							</div>
+							<div id="scroll_click">
+								<div id="scroll_left">&lt;</div>
+							    <div id="scroll_right">&gt;</div>
+							</div>
+							
+						</div>
+					</div>
+					<div id="dl">
+						<a href="###">
+						<dl>
+							<dt><img src="../img/u_shouye/tvlist.png"/></dt>
+							<dd>tv直播间</dd>
+						</dl>
+						</a>
+						<a href="###">
+						<dl>
+							<dt><img src="../img/u_shouye/hand.png"/></dt>
+							<dd>今日推荐</dd>
+						</dl>
+						</a>
+						<a href="###">
+						<dl style="margin-right: 0;">
+							<dt><img src="../img/u_shouye/hot.png"/></dt>
+							<dd>热销榜单</dd>
+						</dl>
+						</a>
+					</div>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+		<!--------------------------sale---------------------------->
+		<div class="wrap">
+		 <div id="sale_big">
+		 	<div class="sale"></div>
+			<div id="week">
+					<p>品类精选<span>促销</span></p>
+					<p>每周一、三、五10：00上新</p>
+		    </div>
+		 </div>
+		 <div id="sale_pic">
+		 	
+		 </div>
+		 <div id="sale_big" style="margin-top: -25px;">
+		 	<div class="sale"></div>
+			<div id="week">
+					<p>全球<span>尖货</span></p>
+					<p>每周一、三、五10：00上新</p>
+		    </div>
+		 </div>
+		</div>
+     <!--------------------------product---------------------------->
+     <div class="wrap">
+     	<div class="pro">
+     		
+     	</div>
+     </div>
+		<!--------------------------foot----------------------------->
+		<div class="foot">
+			
+		</div>  
+	</body>
+</html>

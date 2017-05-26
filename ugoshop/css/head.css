@@ -1,0 +1,67 @@
+
+
+
+
+ body{border-right: 4px solid #222; }
+/****************************************head*********************************/
+.head{ height: 80px; background: #e3b17c;}
+.head img{ height: 80px; width: 1000px; }
+/****************************************nav*********************************/
+.nav{ height: 13px; background: #f6f6f6;  font-size: 12px;  padding-top: 8px;  min-width: 1000px; padding-bottom: 7px;}
+.nav a{ display: inline-block;   }
+.nav li{ float: left;border-right: 1px solid #936693; height: 12px; }
+.nav li:last-child{ position: relative; }
+.nav_right a{color: #666; padding-left: 12px; padding-right: 16px; 
+                height:20px; line-height: 10px;}
+.nav_right a:nth-of-type(8){ border-right: none; padding-right: 0; }
+.twoCode{ position: absolute; top:19px;   height: 126px; width: 86px; text-align: center;
+          border: 1px solid #ccc; accelerator: inherit; padding: 12px 12px 0 12px; display: none;
+          background: #fff; box-shadow:2px 2px 4px #666 ;z-index: 4;}
+.twoCode span{ line-height: 30px; display: block;  color: #f70800;  }
+/***************************************fix********************************/
+#fix{ height:144px; width: 32px; background: #222; border-top-left-radius: 5px; border-bottom-left-radius: 5px;
+          position: fixed; right: 0; top: 214px; text-align: center;  z-index: 1;}
+#fix i{ color: #fff; font-size: 20px; font-weight:normal;} 
+#fix a{ display: block; height: 36px; width: 36px;text-align: center; line-height: 36px; }
+#fix a:hover{ background: #F70800; }
+#fix li{ position: relative; }
+#denglu{ height: 198px; width: 257px; border:1px solid #ccc; padding-top: 30px; text-align: center; 
+         display: none;
+         position: absolute;  background: #fff; right: 31px; top: 0; font-size: 12px;}
+#denglu a{ float: left; color: #222;}
+#denglu strong{ font-weight: normal; }
+#denglu .hello{ height: 24px;  text-align: center; margin-left: 70px; }
+#denglu .hello a{ color: #F70800; }
+#denglu a{ float: left; height: 12px; line-height: 16px; width: 50px;}
+#denglu a:hover{ background: none;  }
+#my_dingdan{  height: 62px; background: #f8f8f8; margin-top: 35px; }
+#my_dingdan a{ height: 28px; width: 88px; border: 1px solid #ccc; 
+              text-align: center; line-height: 28px; margin-left: 25px;
+              }
+#my_dingdan a:hover{ border: 1px solid #E01222; }
+#fix li #white{ border-color:transparent transparent transparent #fff; }
+#fix li span{ display: inline-block; border-color:transparent transparent transparent #666; 
+    border-width:6px; border-style: solid; position: absolute; left: 0;
+    top: 50%; margin-top: -6px;  display: none; }
+#shopping{height: 36px; width: 90px;  background: #666;　 
+           border-top-right-radius: 5px;
+            border-bottom-left-radius: 5px; position: absolute; right: 31px; top: 1px;} 
+#shopping a{ display: block; width: 100%; font-size: 12px; color: #fff; }
+#shopping a:hover{ background: none; }
+/***************************************fix2********************************/
+#fix2{ height:107px; width: 32px; background: #222; border-top-left-radius: 5px; border-bottom-left-radius: 5px;
+          position: fixed; right: 0;bottom:0px; text-align: center; z-index: 2; }
+#fix2 li{ position: relative; }
+#fix2 i{ color: #fff; font-size: 20px; font-weight:normal; margin-top: ;}
+#fix2 a { display: block; height: 36px; width: 36px;text-align: center; line-height: 36px; }
+#fix2 a:hover{ background: #F70800; }
+#fix2_twocode{ height: 159px; width: 128px; border: 1px solid #ccc; position: absolute;display: none;
+                  bottom:-71px; right: 32px; background: #fff; padding-top: 20px;}
+#fix2_twocode a{ width: 128px; font-size: 14px;  
+                     text-align: center; color: #000; }
+#fix2_twocode a:hover{ background: none; }
+#fix2 #shopping a{ margin-left: 30px; }
+#fix2 #shopping a:hover{ background: none; }
+#fix2 li span{ display: inline-block; border-color:transparent transparent transparent #666; 
+    border-width:6px; border-style: solid; position: absolute; left: 0;
+    top: 50%; margin-top: -6px;  display: none; s}

@@ -1,0 +1,56 @@
+
+body{ background: #efefef; }
+/***************************产品列表***************/
+.allList{ height: 87px; background: #fff; width: 967px; margin-left: 18px; margin-bottom: 10px;}
+.innerList{ height: 87px; width: 687px;  display: flex; align-items: space-around; justify-content: space-around;
+            flex-wrap: nowrap; border: 2px solid #dadada; padding: 0 140px; background: #fff; margin-bottom: 10px;}
+.allList dl{ width: 77px; height: 81px; padding-top: 6px; text-align: center; float: left;
+              padding-left: 33px;}
+.allList dt{ height: 50px; width: 50px;  border-radius: 50%; text-align: center;
+            line-height: 50px; }
+.allList dt i{ font-size: 28px;}
+.meifu{ height: 100px; line-height: 100px; font-weight: bolder; color: #333;  margin-left: 18px;  }
+/***************************产品列表瀑布流***************/
+.fast{ height: 33px; }
+.fast_l{ font-size: 12px; color: #333;}
+.fast_l a{ font-size: 12px; color: #333; padding: 3px 9px; display: inline-block;
+        height: 12px; line-height: 10px; height: 12px;}
+.fast_l a:nth-child(3),.fast_l a:nth-child(6){ margin-left: 2px; }
+.fast_l a:nth-child(3),.fast_l a:nth-child(6){ border-left: 1px solid #333; }
+.fast_l a:hover{ background: #00bfcf; color: #fff;}
+.fast_l a:nth-child(2){ background: #00bfcf; }
+.fast_r p{ float: left; font-size: 12px; color: #333; margin-left: 18px;} 
+.fast_r p span{ margin-left: 5px; }
+/***************************瀑布流修饰***************/
+#list_pro{ height: auto; display: flex; justify-content: space-between; align-items: space-between;
+           flex-wrap: wrap; margin-bottom: 100px;}
+.show{ height:434px; width: 314px; margin-bottom:22px; position: relative; border: 1px solid #666;}
+.inner{ height: 529px;   position: relative; }
+.inner p:nth-child(2){ height: 70px; padding-top: 17px; font-size: 14px; color: #222;
+         padding-left: 15px;border-top: 1px solid #666; background: #fafafa;}
+.chun{ position: absolute; top: 10px; right: 12px;}
+.picture{ height: 308px; width: 308px; }
+.inner p:nth-child(3){ height: 32px;   padding: 0 20px 0 18px; 
+                         background: #fafafa; }
+.price{ float: left; font-size: 13px; color: #333; font-weight: bolder;}
+.pinglun{ float: right;  font-size: 12px; }
+.pinglun .a{ color: #00aebd; }
+.tv_s{ height: 35px; background: #fafafa; padding-left: 16px; padding-right: 22px;
+            line-height: 35px; }
+.discount{ height: 17px; width: 58px; background: #fa0e56; margin-right: 10px;
+       display: inline-block; font-size: 12px; color: #fff; text-align: center;  line-height:17px ;}
+.free{ height: 17px; width: 58px; background: #00bfcf; 
+       display: inline-block; font-size: 12px; color: #fff; text-align: center;  line-height:17px ; }
+.abso{ height: 92px; width: 312px; background: #fff1e7; position: absolute; z-index: 3; 
+     display: none; top: 434px; border-top: 1px solid #666;}
+.ji{ height: 16px; width: 16px; background: #0068e9; font-size: 12px; color: #fff; text-align: center;
+    line-height: 16px; display: inline-block;margin-left: 27px; }
+.ji_big{ height: 35px; width: 78px; border-left:1px solid #666;display: inline-block; float: right;}
+.ji_big span:last-child{ font-size: 12px; color: #333; }
+.huiyuan{ height: 56px; border-top: 1px solid #666;}
+.huiyuan_p{ height: 25px; line-height: 50px; font-size: 12px; color: #6c6c6c; font-weight:bold; margin-left: 25px; }
+.comment{ height: 20px; line-height: 40px; color: #939393;font-size: 12px; }
+#pageDivide{  width: 520px; float: right; height: 52px; }
+#pageDivide span{ height: 20px; width: 20px; float: left; text-align: center; 
+             line-height: 20px; border: 1px solid #c5c5c5; color: #000;  margin-right: 10px; }
+

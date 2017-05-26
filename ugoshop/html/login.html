@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录</title>
+		    <link rel="stylesheet" type="text/css" href="../css/public.css"/>
+		    <link rel="stylesheet" type="text/css" href="../css/head.css"/>
+		    <link rel="stylesheet" type="text/css" href="../css/iconfont/iconfont.css">
+		    <link rel="stylesheet" type="text/css" href="../css/foot.css"/>
+		   <link rel="stylesheet" type="text/css" href="../css/login.css"/>
+		   <link rel="stylesheet" type="text/css" href="../css/regist.css"/>
+		    <script type="text/javascript" src="../js/head.js"></script>
+		    <script type="text/javascript" src="../js/onMouseOver.js"></script>
+		    <script type="text/javascript" src="../jquery.js"></script>
+		    <script type="text/javascript" src="../PhpInterface/Ajax.js"></script>
+		    <script type="text/javascript" src="../js/login.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				$(".top").load("head.html",mainHeader)
+				$(".foot").load("foot.html") 
+       })
+			 
+		</script>
+	</head>
+	<body>
+	<!-----------------------------------top---------------------->
+		<div class="top"></div>
+		
+    <!-----------------------------login-logo------------------------>
+         <div class="regist_logo">
+         	<div class="wrap">
+         		<img class="fl" src="../img/u_shouye/logoregist.png"/>
+         		<p class="fr">如有问题请点击,<span><a href="###">帮助中心,</a></span>或拨打客服热线：<span style="color: #ee0007;">400-707-0707</span></p>
+         	</div>
+    </div>
+	 <!-----------------------------login------------------------>
+	 <div class="wrap">
+	 	<div class="login">
+	 		<div class="login_l fl">
+	 		     <p>手机号/邮箱/昵称</p>
+	 		     <div id="phone"><input type="text" name="text" id="text" value="" placeholder="请输入您注册的手机号/邮箱/昵称" /><span><img src="../img/u_shouye/tex.png"/></span></div>
+	 		     <p>密码</p>
+	 		     <div id="pass"><input type="password" name="text" id="psd" value="" /><span><img src="../img/u_shouye/key.png"/></span></div>
+	 		     <p id="remeber"><span class="fl"><input type="checkbox" id="checkBox"/>记住用户名</span><a class="fr" href="###">忘记密码</a></p><br />
+	 		    <p><a id="submit" href="###"><input style="width: 355px;" type="submit" name="" id="sub" value="登   录" /></a></p>
+	 		  <i class="i1">您输入的用户名不存在，请核对后重新输入！</i>
+	 		  <i class="i2">请输入您注册的手机号/邮箱/昵称</i>
+	 		  <i class="i3">密码错误，请重新输入</i>
+	 		</div>
+	 		<div class="login_r fr">
+	 			<p>您还不是优品惠的会员？</p>
+	 			<a style="display: block; margin-bottom: 40px; line-height: 30px; background: #fff;" href="../html/login.html">免费注册 ></a>
+	 			<p>电话订购过优品惠商品？</p>
+	 			<a style="display: block; line-height: 30px; background: #fff;" href="###">快速激活 ></a>
+	 		</div>
+	 	</div>
+	 </div>
+	 <!-----------------------------foot------------------------>
+	 <div class="foot"></div>
+	</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册</title>
+		    <link rel="stylesheet" type="text/css" href="../css/public.css"/>
+		    <link rel="stylesheet" type="text/css" href="../css/head.css"/>
+		    <link rel="stylesheet" type="text/css" href="../css/iconfont/iconfont.css">
+		    <link rel="stylesheet" type="text/css" href="../css/foot.css"/>
+		    <link rel="stylesheet" type="text/css" href="../css/regist.css"/>
+		    <script type="text/javascript" src="../js/onMouseOver.js"></script>
+		    <script type="text/javascript" src="../js/head.js"></script>
+		    <script type="text/javascript" src="../jquery.js"></script>
+		    <script type="text/javascript" src="../PhpInterface/Ajax.js"></script>
+		     <script type="text/javascript" src="../js/regist.js"></script>
+		    <script type="text/javascript">
+	  $(function(){ //这个就是今天我给我I你说的那个  只能引入一个js文件  再引的话其他的就失效了   所以我爸另一个js直接复制过来了  可是这样好臃肿
+    	  $(".top").load("head.html",mainHeader);
+    	  $(".foot").load("foot.html")
+    	 
+       })
+		</script>
+	</head>
+	<body>
+    <!--------------------------head----------------------------->
+		 <div class="top"></div>
+    <!-----------------------------regist_logo------------------------>
+         <div class="regist_logo">
+         	<div class="wrap">
+         		<img class="fl" src="../img/u_shouye/logoregist.png"/>
+         		<p class="fr">已经注册,<span><a href="login.html">现在登录》</a></span></p>
+         	</div>
+         </div>
+     <!-----------------------------login------------------------>
+    <div class="phone_big">
+	    <div class="wrap">
+	     	<div class="phone">
+	     		<div id="a">
+	     			<a id="phone_1" style="color: #666;" href="###"><i style="margin-left: 50px;" class="iconfont icon-shouji"></i>手机注册</a>
+	     			<a id="tv_1"  style="color: #666;" href="###"><i class="iconfont icon-dianshi"></i>电视用户激活</a>
+	     		</div>
+	     		<div id="action">
+	     			<div id="regist_phone">
+	     				<div><span class="fl mr785">手机号码：</span><p><input type="text" name="txt" id="txt" value="" /><span class="none1"></span></p></div>
+	     				<div style="margin-bottom: 10px;"><span class="fl mr785">验证码：</span><input type="text" name="test" id="test" value="" style="text-align: center; font-size: 20px;  color: #000; font-weight: bold;"/><span id="testCode"></span><a id="look" href="###" class="fl">看不清，</a><a id="change_one" class="fl" href="###">换一张</a></div>
+	     				<div><span class="fl mr785">设置密码：</span><p><input type="text" name="password" id="psd" value="" /><span class="none2"></span></p></div>
+	     				<div><span class="fl mr785">确认密码：</span><p><input type="text" name="password" id="sure_psd" value="" /><span class="none3"></span></p></div>
+	     				<div><span class="fl mr785">短信验证码：</span><input style="height:35px;border: 1px solid #666;" type="text" name="message" id="message" value="" /><a href="###" class="click_message">获取短信验证码</a></div>
+	     				<p class="read"><input type="checkbox" name="" id="check" value=""/>我已阅读并同意<span>优品惠用户服务承诺</span></p>
+	     				<p class="sub"><a id="tiaozhuan" href="###"><input type="submit" name="sub" id="sub"   value="提  交" /></a></p>
+	     				<p class="ask"><a href="###">如有疑问请点击<span>帮助中心，</span></a>或拨打客服热线：<span>400-707-0707</span></p>
+	     			<i class="i1">请输入常用手机号，避免忘记</i>
+	     			<i class="i2">请输入手机号</i>
+	     			<i class="i11">手机格式不正确，请核对后再输入</i>
+	     			<i class="i3">6-20位字符，可用字母数字和符号的组合</i>
+	     			<i class="i4">请输入密码</i>
+	     			<i class="i33">密码长度应该是6-20位字符，请重新再输入</i>
+	     			<i class="i5">请在此输入密码</i>
+	     			<i class="i6">请确认密码</i>
+	     			<i class="i55">两次输入的密码不一致，请重新输入</i>
+	     			</div>
+	     			 
+	     			<div id="regist_tv">
+	     			    <div><span class="fl mr785">手机号码：</span><p><input type="text" name="txt" id="txt1" value="" /><span></span></p></div>
+	     				<div style="margin-bottom: 10px;"><span class="fl mr785">验证码：</span><input type="text" name="test" id="test1" value="" style="text-align: center; font-size: 20px;  color: #000; font-weight: bold;"/><span id="testCode1"></span><a id="look1" href="###" class="fl">看不清，</a><a id="change_one1" class="fl" href="###">换一张</a></div>
+	     				<div><span class="fl mr785">短信验证码：</span><input style="height:35px;border: 1px solid #666;" type="text" name="message" id="message1" value="" /><a href="###" class="click_message">获取短信验证码</a></div>
+	     				<div id="set"><span class="fl mr785">设置密码：</span><p><input type="text" name="password" id="psd1" value="" /><span></span></p></div>
+	     				<div><span class="fl mr785">确认密码：</span><p><input type="text" name="password" id="sure_psd1" value="" /><span></span></p></div>
+	     				<p class="read"><input type="checkbox" name="" id="check1" value=""/>我已阅读并同意<span>优品惠用户服务承诺</span></p>
+	     				<p class="sub"><input type="submit" name="sub" id="sub1"   value="提  交" /></p>
+	     				<p class="ask"><a href="###">如有疑问请点击<span>帮助中心，</span></a>或拨打客服热线：<span>400-707-0707</span></p>
+	     			</div>
+	     		</div>
+	     	</div>
+	     </div>
+	     <a id="ugo" href="###"></a>
+     </div>
+	 <!-----------------------------foot------------------------>
+	    <div class="foot"></div>
+	</body>
+</html>

@@ -1,0 +1,95 @@
+
+
+body{ background: #f2f2f2; }
+
+.lunbotuAfter{ height: 400PX; width: 100%; margin-top: 165px;  }
+.lunbotuAfter_l{ height:400px; width: 698px; border: 1px solid #ddd; float: left; background: #fff;}
+#lunbotuTop{ height: 302px;   border-bottom: 1px solid #ddd; position: relative;}
+#lunbotuTop_left{ position: relative; float: left; height:302px; width:330px; margin-right: 10px; background: #fff;}
+#lunbotuTop_left img{ position: absolute;  height: 302px; width: 330px;}
+#lunbotuBottom { height:95px; width: 100%; padding: 0 15px;  }
+#lunbotuBottom a{ height: 95px; width: 76px; border-top:2px solid #E01222; float: left;
+                 position: relative;  }
+#lunbotuBottom a span{ display: inline-block;  border-color: transparent transparent #F10215 transparent;
+              border-width: 4px; border-style: solid; position: absolute; z-index: 4; top: -10px;  left: 50%;
+              margin-left: -8px; display: none;}
+#lunbotuBottom img{ height: 66px; width: 66px; float: left; margin-right: 20px; margin-top: 15px; }
+.lunbotuAfter_r{ height: 400px; width: 288px; border: 1px solid #ddd; float: right; background: #fff;} 
+#lunbotuTop_right{ position: relative; float: left;}
+#lunbotuTop_right div{ position: absolute; height: 260px; width: 358px; background: #fff; 
+                        padding-top: 42px;}
+#lunbotuTop_right p:nth-child(1){ line-height: 28px; font-size: 18px; color: #000; }
+#lunbotuTop_right p:nth-child(2){ line-height: 17px; font-size: 12px; color: #666; height: 52px;}
+#lunbotuTop_right p:nth-child(3){ line-height: 65px; font-size: 22px; color: #f70800;  }
+#lunbotuTop_right p:nth-child(4){ line-height: 65px; font-size: 22px; color: #f70800;  }
+#lunbotuTop_right p:nth-child(5){ line-height: 28px; font-size: 12px; color: #999;  }
+#lunbotuTop_right p:nth-child(6){ line-height: 28px; font-size: 12px; color: #999;  }
+/*#lunbotuTop_right p:nth-child(2) span{  display: inline-block;  height: 26px; width: 26px; 
+                          background: url(../img/u_shouye/user.png);}
+#lunbotuTop_right p:nth-child(4) span{  display: inline-block;  height: 26px; width: 26px; 
+                          background: url(../img/u_shouye/user.png);}
+#lunbotuTop_right p:nth-child(3) span{  display: inline-block;  height: 26px; width: 26px; 
+                          background: url(../img/u_shouye/user.png);}*/
+#click div{ height: 43px; width: 24px;  position: absolute; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd;
+         line-height: 43px; text-align: center; margin-top: 130px; background: #fff; cursor: pointer;}
+#lunbotuTopClick_left{ border-right: 1px solid #dddddd;  left: 0;   }
+#lunbotuTopClick_right{ border-left: 1px solid #dddddd;  right: 0; }
+#every{ height:44px ; position: absolute; width: 106px; background: #ff504a; font-size: 14px;
+       color: #fff; line-height: 44px; text-align: center; top: 608px; box-shadow: 3px 3px 3px #ccc;}
+.yougou{ height: 40px; border-bottom: 1px solid #eee; width: 288px;   font-size: 14px;
+              color: #000; }
+.yougou span{background: url(../img/u_shouye/tv.png) no-repeat; height: 21px; width: 25px; 
+                display: inline-block; margin-left: 10px; margin-right: 5px; margin-top: 10px;}
+.woll { height:117px; width: 144px;  }
+.woll a:nth-of-type(1){ font-size:14px; line-height: 16px; color: #000;  }
+.woll a:nth-of-type(1):hover{ text-decoration: underline;}
+.woll a:nth-of-type(2){height: 33px; line-height: 33px; font-size: 12px; color: #f70800;}
+.woll a:nth-of-type(3){ line-height: 23px; font-size: 12px; color: #666; }
+.woll a:nth-of-type(4){height: 23px; width: 90px; background:#f70800; line-height: 23px; text-align: center; }
+#woll{ height: 135px;  padding: 20px 0 0 15px; border-bottom: 1px dashed #ccc;  }
+#house{ height: 122px; border-bottom: 1px dashed #ccc; padding-top: 18px;   position: relative;}
+#house p{ text-indent: 15px; }
+#house p span{ color: #f70800;}
+#house p{ color: #444; font-size: 12px; line-height: 25px;}
+#_24{ height: 90px;   margin-left: 10px; width: 273px; 
+           overflow: hidden; position: relative;}
+#_24 div{ float: left; height:90px; width: 80px;  align-content: space-between;
+             display: flex; justify-content: space-between; margin-right: 11px;}
+#_24 div img{ height: 80px; width: 80px; }
+#scroll_click div{ height: 46px; width: 20px; background: #c2c2c2; color: #fff; text-align-last: center;
+         line-height: 46px; position: absolute;    margin-top: -23px; cursor: pointer;}
+#inner24{ height:90px; width: 5000px; position: absolute;}
+#scroll_left{ left:5px;  top: 85px; }
+#scroll_right{  right: 5px;  top: 85px;}
+
+#dl{ padding: 15px 24px 12px 24px; }
+#dl dl{ height:33px; width: 50px; margin-right: 40px;  float: left;  text-align-last: center; }
+#dl a{ font-size: 12px; color: #666; }
+#dl a:hover dd{ text-decoration: underline; }
+#dl a:hover dt{ transition: .5s; transform: translateY(-3px)  }
+#dl dt{ margin-bottom: 6px; }
+/*************************************sale************************************/
+.sale{ height: 2px; background: #333; margin-top: 60px;}
+#sale_big{  position: relative; }
+#week{ padding: 0 25px; width: 200px; height: 50px;  position: absolute; background: #f2f2f2;
+       left:50%; right: 50%; margin-left: -100px; top: -25px; text-align: center;}
+#week p:first-child{ line-height: 35px; color: #f90703; font-weight: bolder; font-size: 27px;}
+#week p:first-child span{ color: #222; }
+#week p:last-child{ color: #888; font-size: 12px; }
+#sale_pic img{ height: 270px; width: 490px;   float: left; }
+#sale_pic{ margin-top: 43px; height: 565px; width: 1000px; display: flex; 
+           justify-content: space-between; flex-wrap: wrap;  }
+
+/*************************************pro************************************/
+.pro{ height: auto; margin-top: 44px; display: flex; justify-content: space-between;
+      flex-wrap: wrap; align-items: space-between; margin-bottom: 20px; }
+.big{ height: 461px; width: 317px; border: 1px solid #ccc; margin-bottom: 20px; }
+.pro_big{ height: 406px; width: 297px; border-bottom: 1px solid #ccc;  
+             padding: 10px 10px 0 10px; background: #fff;}
+.pro_big img{ height: 298px; width: 298px; }
+.name{ font-size: 16px;  line-height: 64px; color: #000; width: 297px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.pro_big span:nth-child(1){ font-size: 20px; color: #000; float: left;}
+.pro_big span:nth-child(2){ font-size: 12px; color: #666; float: right; }
+.pro_big i{ font-style: normal; color: #f70800; }
+ 
+ 

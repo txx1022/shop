@@ -1,0 +1,28 @@
+/***************************************foot********************************/
+.foot{ height: 493px; background: #fff;}
+.foot a:hover{ color: #C40001; }
+.foot1{  height:100px;    }
+.foot1 img{ height: 100px; }
+.foot2{ height: 115px;   border-bottom: 1px solid #ccc; padding: 25px 0;  padding-left: 77px;}
+.foot2 div{ height: 108px; width: 97px; border-right: 1px dashed #ccc; float: left; 
+             padding-top: 6px; padding-left: 40px;}
+.foot2 span{ color: #333; line-height: 25px;font-size: 15px;}
+.foot2 a{ color: #666; line-height: 25px; font-size: 12px; display: block;} 
+.foot2 a:hover{ color: #C40001; }
+.foot2 div:nth-child(4){border-right: none;}
+.foot2 .phone{ width: 284px; border-right: none; }
+.phone img{ margin-right: 28px; }
+.phone i{ font-size: 12px; font-style: normal;display: block;width: 80px; text-align: center; }
+h5{ margin-top: -20px; color: #474747;}
+h2{   color: #212121; font-weight: normal;   }
+.foot3{ padding-top: 27px; text-align: center; font-size: 12px;}
+.foot3 a{ color: #555; }
+.foot3_1{ height: 27px; line-height: 27px; }
+.foot3_1 a{ color: #555; border-right: 1px solid #9a559a; padding: 0 15px; }
+.foot3_1 a:last-child{ border-right: none; }
+.foot3 .foot3_2{ text-align: left; line-height: 26px; line-height: 26px; }
+.foot3_2 a{ margin-right: 10px; }
+.foot3_2 span{ color: #555; }
+.foot3_3{ line-height: 24px; height: 24px; color: #555;}
+.foot3_4{ text-align: left; line-height: 23px;color: #555;}
+.foot3_5{ color: #555; }s

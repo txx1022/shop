@@ -1,0 +1,39 @@
+{
+"1":{
+           "model":"OLISI",
+           "name":"红多色唯美优雅连衣裙",
+           "detail":"【买手说】欧力丝-时尚大气的V领设计，修饰女性的姣好面容，宫廷气质的喇叭袖，彰显女性柔美婉约的独特气质。",
+           "price":"￥359",
+           "discount":"订单金额满168元包邮",
+           "send":"北京北京东城区",
+           "color":"red",
+           "size1":"XL",
+           "id":"xl",
+           "address":"../img/u_shouye/big1.jpg"
+           
+  },
+ "2":{
+           "model":"OLISI",
+           "name":"红多色唯美优雅连衣裙",
+           "detail":"【买手说】欧力丝-时尚大气的V领设计，修饰女性的姣好面容，宫廷气质的喇叭袖，彰显女性柔美婉约的独特气质。",
+           "price":"￥359",
+           "discount":"订单金额满168元包邮",
+           "send":"北京北京东城区",
+           "color":"red", 
+           "size2":"X",
+           "id":"x",
+           "address":"../img/u_shouye/big2.jpg"
+  },
+  "3":{
+           "model":"OLISI",
+           "name":"红多色唯美优雅连衣裙",
+           "detail":"【买手说】欧力丝-时尚大气的V领设计，修饰女性的姣好面容，宫廷气质的喇叭袖，彰显女性柔美婉约的独特气质。",
+           "price":"￥359",
+           "discount":"订单金额满168元包邮",
+           "send":"北京北京东城区",
+           "color":"red", 
+           "size2":"M",
+           "id":"m",
+           "address":"../img/u_shouye/big2.jpg"
+  }
+}

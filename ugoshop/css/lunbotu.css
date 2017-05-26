@@ -1,0 +1,55 @@
+/****************************************search*********************************/
+.sousuo{ height: 79px; background: #fff; }
+.search{  height: 79px; padding-top: 26px; 
+   }
+.text{ height:32px; width:418px; border: 2px solid #f70801; margin-left: 289px;}
+#tex{ height: 32px; width: 341px; background: #fff; text-indent: 13px;   }
+#btn{ height: 32px; width: 77px;background: #f70801; color: #fff;}
+#shopping_car{ height: 30px; width: 138px; border: 1px solid #ddd; float: right; margin-top: -34px;
+                   text-align: center; line-height: 30px; position: relative;}
+#shopping_car a{ font-size: 12px; color: #222; }
+#shopping_car i{ position: absolute; }
+#shopping_car i:nth-child(1){ font-size: 20px; color: #f70801; margin-right: 5px; left: 15px;}
+#shopping_car i:nth-child(2){ right: 5px;}
+#shopping_car i:nth-child(3){ right: 5px;}
+#shopping_car_xia{ height: 84px; width: 288px; border: 1px solid #ddd; position: absolute; right:129px;
+                top: 57px; background: #fff; line-height: 84px; text-align: center;  z-index: 1;
+                display: none;}
+#shopping_car_xia a{ color: #000; }
+#shangsanjiao{ display: none; }
+/****************************************list*********************************/
+#list{ height: 40px; background:#f70800 ; line-height: 40px;}
+#list li{ float: left;}
+#list li a{ padding: 12px 20px; font-size: 13px; color: #fff; text-align: center;}
+#list li:nth-of-type(1) a{ background: rgba(176,6,0, .4); }
+.divide{ margin-left:431px }
+#list li a:hover{ background: rgba(188,6,0, .4); }
+.women .box{ height:245px; width: 996px; border: 1px solid #C40001; top: 40px; right: 0;
+             display: none;   z-index: 9; background: #fff; position: absolute; }
+.women{ position: relative; }
+.box div{ height:245px; width: 135px; padding: 0 15px; background: #fff; float: left; 
+         border-right: 1px dashed #666; padding: 0px 15px 0 15px; text-align: center; font-size: 12px;
+         color: #555;}
+.box div li{  width:135px; text-align: center; line-height: 24px; line-height: 24px; cursor: pointer;}
+.box div:last-child{ border-right: none; }
+.box div a{ height: 35px; width: 90px; font-size: 15px; color: #000; text-align: center;
+            display: block; border-bottom: 1px dashed #666;} 
+.box div a i{float: left; margin-right: -20px; margin-left: 20px; }
+.box div a:hover{ background: none !important;  }
+.box div:nth-of-type(1) i{ color: #ff4074; }
+.box div:nth-of-type(2) i{ color: #6bb3ff; }
+.box div:nth-of-type(3) i{ color: #66bc09; }
+.box div:nth-of-type(4) i{ color: #ff7c1c; }
+.box div:nth-of-type(5) i{ color: #49a2ff; }
+.box div:nth-of-type(6) i{ color: #ff4074; }
+/****************************************lunbotu*********************************/
+.lunbotu{ height: 340px; width: 100%; position: relative;}
+#bigPic img{ width: 1277PX;   position: absolute; left: 0; height: 340px;}
+#circle{   height: 20px; width: 100px; position: absolute; left: 50%; right: 50%; bottom: 17px;
+             margin-left:-50px; }
+#circle span{ height: 10px; width: 10px; border-radius: 50%;  background: #9d9991;
+              margin-right: 5px; float: left;}
+#click_left{ height: 60px; width: 30px; background: rgba(85,85,85,.3); position: absolute; left: 140px; cursor: pointer;
+         top: 50%; bottom: 50%; margin-top: -15px; line-height: 60px; text-align: center; font-size: 23px; display: none;}
+#click_right{ height: 60px; width: 30px; background: rgba(85,85,85, 0.3); position: absolute; right: 140px; cursor: pointer;
+         top: 50%; bottom: 50%; margin-top: -15px; line-height: 60px; text-align: center;font-size: 23px; display: none;}         

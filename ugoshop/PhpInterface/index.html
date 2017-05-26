@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="Ajax.js"></script>
+    <script type="text/javascript">
+        var _cookie=document.cookie;
+        if(/uName=/g.test(_cookie)){
+            document.write("欢迎"+_cookie.match(/uName=\w+/g)[0].replace(/uName=/g,"")+"登陆！");
+            ajaxRequest("post","login.php",true,{
+                "uName":_cookie.match(/uName=\w+/g)[0].replace(/uName=/g,""),
+                "pwd":_cookie.match(/pwd=\w+/g)[0].replace(/pwd=/g,"")
+            },function(data){
+                alert(data);
+            });
+        }else{
+            document.write("<a href=\"login.html\">请登陆！！</a>");
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
